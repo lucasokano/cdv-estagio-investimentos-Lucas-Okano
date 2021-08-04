@@ -1,0 +1,21 @@
+/* tirando os botões up/down */
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+label {
+  margin:20px;
+}
+
+form button{
+  margin-left: 20px;
+}
+
